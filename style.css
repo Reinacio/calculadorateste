@@ -1,0 +1,67 @@
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 0.8em;
+  margin: 0px;
+  background: gray;
+}
+
+nav,
+section,
+article {
+  margin: 5px;
+  padding: 8px;
+}
+
+#content {
+  text-align: center;
+}
+
+header,
+footer {
+  background-color: black;
+  color: whitesmoke;
+  padding: 5px;
+  margin: 0;
+  font-size: .5rem;
+  font-weight: normal;
+}
+
+.footer .credit a {
+  color: burlywood;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  width: 60px;
+  text-align: center;
+  font-size: 35px;
+  background-color: rgb(250, 248, 248);
+  color: black;
+  border: rgb(35, 82, 170) solid 1px;
+  box-shadow: black;
+  text-shadow: black;
+}
+
+input {
+  width: 250px;
+  font-size: 30px;
+  background-color:rgb(250, 248, 248);
+  color: black;
+  border: cornflowerblue solid 1px;
+  text-align: right;
+  box-shadow: 1px 2px 3px 1px black;
+  text-shadow: 1px 1px 3px black;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 5px;
+}
